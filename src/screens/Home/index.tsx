@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button, Image, View, Platform, Text } from "react-native";
 import * as ImagePicker from "expo-image-picker";
-import { useAppSelector, useAppDispatch } from "./../../store/hooks";
-import { addItem, selectItems } from "./../../store/app";
+import { useAppSelector, useAppDispatch } from "~/store/hooks";
+import { addItem, selectItems } from "~/store/app";
 
 export default function Home() {
   const [image, setImage] = useState(null);
