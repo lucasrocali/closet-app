@@ -1,10 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "./../";
-
-type Item = {
-  id: string;
-};
-
+import { Item } from "./../data";
 export interface AppState {
   items: Item[];
 }

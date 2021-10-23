@@ -11,6 +11,7 @@ module.exports = function (api) {
             "~/components": "./src/components",
             "~/screens": "./src/screens",
             "~/store": "./src/store",
+            tailwind: "./tailwind",
           },
         },
       ],

@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Home from "~/screens/Home";
+import Base from "~/screens/Base";
 import {
   RootStackParamList,
   MainTabParamList,
@@ -37,7 +38,7 @@ function ItemsStack(): JSX.Element {
         headerShown: false,
       }}
     >
-      <ItemsStackNavigator.Screen name={"Items"} component={Home} />
+      <ItemsStackNavigator.Screen name={"Items"} component={Base} />
     </ItemsStackNavigator.Navigator>
   );
 }
@@ -49,7 +50,7 @@ function LooksStack(): JSX.Element {
         headerShown: false,
       }}
     >
-      <LooksStackNavigator.Screen name={"Looks"} component={Home} />
+      <LooksStackNavigator.Screen name={"Looks"} component={Base} />
     </LooksStackNavigator.Navigator>
   );
 }

@@ -7,7 +7,8 @@
       "~/navigation/*": ["./src/navigation/*"],
       "~/components/*": ["./src/components/*"],
       "~/screens/*": ["./src/screens/*"],
-      "~/store/*": ["./src/store/*"]
+      "~/store/*": ["./src/store/*"],
+      "tailwind": ["./tailwind"]
     }
   }
 }
